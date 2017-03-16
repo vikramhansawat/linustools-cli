@@ -3,7 +3,7 @@ linustools-cli
 ==============
 
 
-Add a short description here!
+This is Python based cli tool that makes world a better place without doing repeating and daunting tasks.
 
 
 Description
