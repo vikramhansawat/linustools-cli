@@ -12,6 +12,18 @@ import sys
 from setuptools import setup
 
 
+setup(
+	name='linustools-cli',
+	version='0.1.0',
+	py_modules=['linustools-cli'],
+	install_requires=[
+		'Click',
+	],
+	entry_points='''
+		[console_scripts]
+		linustools-cli=linustools-cli:cli
+	''',
+)
 def setup_package():
     needs_sphinx = {'build_sphinx', 'upload_docs'}.intersection(sys.argv)
     sphinx = ['sphinx'] if needs_sphinx else []
